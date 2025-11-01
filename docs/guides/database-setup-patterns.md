@@ -1507,7 +1507,7 @@ COMMIT;
 
 **Related Guides**:
 - @docs/guides/optional-components-logic.md - When to use Supabase MCP (trigger conditions)
-- @.claude/skills/nextjs-project-setup/SKILL.md - Next.js project setup workflow (Phase 3: Specification, Phase 6: Implementation)
+- .claude/skills/nextjs-project-setup/SKILL.md - Next.js project setup workflow (Phase 3: Specification, Phase 6: Implementation)
 
 **External Documentation**:
 - Supabase RLS: https://supabase.com/docs/guides/auth/row-level-security

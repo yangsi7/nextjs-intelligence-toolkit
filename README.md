@@ -177,9 +177,33 @@ curl -fsSL https://raw.githubusercontent.com/yangsi7/nextjs-intelligence-toolkit
 
 ## 🛠️ Requirements
 
+### System Requirements
 - **Claude Code** - [Download here](https://claude.ai/download)
 - **Node.js 18+** - For Next.js
 - **Git** - For version control
+
+### Global Skills Required
+The toolkit references 3 global skills (3,316 lines of curated knowledge):
+- **shadcn-ui** (1,053 lines) - Component library patterns
+- **nextjs** (1,129 lines) - Next.js 15+ best practices
+- **tailwindcss** (1,134 lines) - Design system foundations
+
+**Installation**: Install these skills separately in `~/.claude/skills/`
+
+### MCP Tools Required
+- **Vercel MCP** - Template discovery (required)
+- **Shadcn MCP** - Component installation (required)
+- **Supabase MCP** - Database setup (optional, for DB projects)
+- **21st Dev MCP** - Design ideation (optional, for custom designs)
+- **Ref MCP** - Library documentation (optional, helpful)
+
+**Configuration**: Create `.mcp.json` in project root or `~/.claude/.mcp.json`
+
+### Installation Options
+The toolkit supports two installation modes:
+- **Project-level** (`./.claude/`) - Specific to one project
+- **User-level** (`~/.claude/`) - Available to all projects
+- **Both** - User-level shared, project overrides when present
 
 Optional but recommended:
 - **Supabase account** - For database projects
@@ -187,16 +211,52 @@ Optional but recommended:
 
 ---
 
+## ✅ Validation
+
+After installation, verify everything works:
+
+```bash
+./validate-installation.sh
+```
+
+**Expected Output**:
+```
+Installation Validation Report
+
+Summary:
+- Test Categories: 8
+- Total Assertions: 20
+- Passed: 19 ✅
+- Failed: 0 ❌
+- Warnings: 1 ⚠️
+- Pass Rate: 95%
+
+Status: ✅ GOOD - All tests passed with 1 warnings
+```
+
+See [INSTALLATION-VALIDATION-REPORT.md](INSTALLATION-VALIDATION-REPORT.md) for details.
+
+**If tests fail**: See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for solutions.
+
+---
+
 ## 📚 Documentation
 
-After installation, see:
+### Getting Started
+
+- **[QUICKSTART.md](QUICKSTART.md)** - 5-minute tutorial to get up and running
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - System overview with CoD^Σ diagrams
+- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - 10+ common issues with solutions
+
+### After Installation
 
 - **`CLAUDE.md`** - Project-specific Claude Code context
 - **`initial-prompt.md`** - Kickstart template with your requirements
 - **`.claude/skills/nextjs-project-setup/SKILL.md`** - Complete skill documentation (999 lines)
 - **`.claude/skills/nextjs-project-setup/docs/`** - Phase-specific guides
 
-For toolkit architecture:
+### Toolkit Architecture
+
 - **`docs/claude-code-comprehensive-guide.md`** - Building Claude Code components (1,450 lines)
 - **`.claude/shared-imports/constitution.md`** - Development principles (7 articles)
 

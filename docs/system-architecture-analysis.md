@@ -568,7 +568,7 @@ User_Request["Set up Next.js project with auth and dark mode"]
 ---
 
 **Evidence Sources**:
-- @.claude/skills/nextjs-project-setup/SKILL.md (current implementation)
+- .claude/skills/nextjs-project-setup/SKILL.md (current implementation)
 - ~/.claude/skills/{shadcn-ui,nextjs,tailwindcss}/SKILL.md (global skills)
 - @planning.md (refactoring plan)
 - @docs/claude-code-comprehensive-guide.md (architecture principles)

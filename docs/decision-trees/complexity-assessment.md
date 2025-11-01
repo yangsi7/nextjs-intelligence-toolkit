@@ -473,7 +473,7 @@ Based on responses → Complete assessment
 
 ## Integration with SKILL.md
 
-**Where Used**: @.claude/skills/nextjs-project-setup/SKILL.md:100-139
+**Where Used**: .claude/skills/nextjs-project-setup/SKILL.md:100-139
 
 **Reference Pattern**:
 ```

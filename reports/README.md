@@ -106,4 +106,4 @@ rm reports/[report-name].md
 
 **Created**: 2025-10-30
 **Part of**: Phase A (Critical Infrastructure) - Task A1
-**Reference**: @.claude/skills/nextjs-project-setup/SKILL.md:197
+**Reference**: .claude/skills/nextjs-project-setup/SKILL.md:197
